@@ -1,4 +1,5 @@
-#include "jngen.h"
+//#include "jngen.h"          //INCLUDE THIS FILE FOR TREE/GRAPH GENERATION
+#include "bits/stdc++.h"
 using namespace std ;
 
 #define timesaver ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
@@ -62,28 +63,29 @@ void getn( ){
 
 }
 
-Tree t ;
+// RANDOM TREES
+// Tree t ;
 
-void gett( ){
-  if( t_no < 5 ){
-    t = Tree::random( n ) ; 
-  }
-  else if( t_no < 12 ){
-    t = Tree::randomKruskal( n ) ;
-  }
-  else if( t_no == 14 ){
-  	t = Tree::bamboo( n ) ;
-  }
-  else if( t_no < 15 ){
-    t = Tree::caterpillar( n, 10 ) ;
-  }
-  else if( t_no < 17 ){
-  	t = Tree::randomKruskal( n ) ;
-  }
-  else{
-    t = Tree::randomPrim( n, 10000 ) ;
-  }
-}
+// void gett( ){
+//   if( t_no < 5 ){
+//     t = Tree::random( n ) ; 
+//   }
+//   else if( t_no < 12 ){
+//     t = Tree::randomKruskal( n ) ;
+//   }
+//   else if( t_no == 14 ){
+//   	t = Tree::bamboo( n ) ;
+//   }
+//   else if( t_no < 15 ){
+//     t = Tree::caterpillar( n, 10 ) ;
+//   }
+//   else if( t_no < 17 ){
+//   	t = Tree::randomKruskal( n ) ;
+//   }
+//   else{
+//     t = Tree::randomPrim( n, 10000 ) ;
+//   }
+// }
 
 int main( ){
   timesaver ;
