@@ -56,7 +56,8 @@ do
 
 	# check if files original_output and brute_output
 	# differs(we are ignoring spaces and then comparing files)
-  if diff --tabsize=1 -F --label --side-by-side --ignore-space-change out1 out2 > tmp; then
+  	if diff --tabsize=1 -F --label --side-by-side --ignore-space-change out1 out2 > tmp; 
+	then
 	    echo "${orange}test_case #$i: ${bold}${green}passed${reset}"
 	else
 		echo "${orange}test_case #$i: ${bold}${red}failed${reset}"
