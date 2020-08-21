@@ -23,4 +23,4 @@ $ `bash run.sh` to run the script.
 **->** This will generate **100** test cases and then check the program against it.
 
 ### Output:
-By default, The input/output files are generated and stored in the input & output folder respectively. The naming convention and directory structure are those required for uploading on hackerrank.com.
+By default, The input/output files are generated and stored in the input & output folder respectively. The naming convention and directory structure are those required for uploading on hackerrank.com, which can be changed easily by updating the bash script.
