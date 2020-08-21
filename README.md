@@ -2,7 +2,7 @@
 
 Bash Script for automation of Test Case Generation and Stress Testing
 
-# Stress Testing bash script
+# 1. Stress Testing bash script
 
 Stress testing is a technique of testing your solution on a number of random test cases to find where the code might fail. 
 
