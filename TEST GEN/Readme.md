@@ -8,6 +8,7 @@ Download this repository manually or by using git clone on terminal.
 ### Using
 Copy your original solution which you expect might fail in the file `SOL.cpp`. <br>
 Change the `GEN.cpp` file so as to generate test cases according to the question. <br>
+For Complex Test-Cases generation, you can use the [Jngen.h Library](https://github.com/ifsmirnov/jngen).
 
 Now open your terminal in the directory where file `run.sh` resides and execute:<br>
 Once give the execute permissions to `run.sh` file using: <br>
