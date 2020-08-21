@@ -27,5 +27,6 @@ $ `bash run.sh` to run the script.
 `bash run.sh 100`
 **->** This will generate **100** test cases and then check the program against it.
 
-###Output:<br> The output of running file `run.sh` on every test case is either `Accepted` if your solution's output matches the brute solution output or `Wrong Answer` and will show the input on which the solution failed, the output of your solution and expected output according to the brute force solution on terminal and the script will be terminated. Now you can debug your original solution and check where it goes wrong. <br>
+### Output:
+The output of running file `run.sh` on every test case is either `Accepted` if your solution's output matches the brute solution output or `Wrong Answer` and will show the input on which the solution failed, the output of your solution and expected output according to the brute force solution on terminal and the script will be terminated. Now you can debug your original solution and check where it goes wrong. <br>
 If you wish to terminate the script at any moment you wish use the command `ctrl + c` in your terminal.<br>
