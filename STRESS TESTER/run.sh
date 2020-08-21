@@ -1,6 +1,6 @@
 #!/bin/bash
-# @Author: _dp95
 
+# @Author: _dp95
 
 #To color the output text in different colours
 green=$(tput setaf 71);
